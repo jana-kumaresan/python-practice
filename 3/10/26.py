@@ -6,4 +6,5 @@ try :
 except ValueError as e:
   print("error :",e)
 
-
+finally:
+    print("Program completed")
